@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+xport default function handler(req, res) {
   const score = Number(req.query.score || 0) + 1;
 
   let image = "https://i.imgur.com/9YQZQZx.png";
